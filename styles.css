@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+html{
+    font-family: Roboto, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.flex {
+    display: flex;
+}
+
+.logo {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    align-items: center;
+}
+
+.logo-text{
+    text-align: right;
+    align-self: flex-end;
+    margin: 2px;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+article {
+    margin-top: 150px;
+    
+}
+
+.form {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.row {
+    justify-content: flex-end;    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.checkbox {
+    margin-right:5px;
+}
+
+.inputs input{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border:none;
+    background-color: #14a6a3;
+    color: white;
+    height: 35px;
+    padding: 10px;
+}
+
+.inputs input::placeholder{
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.catchphrase{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.entrar{
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    background-color: #DFDDDD;
+}
+
+.entrar:hover {
+    background-color: #cecece;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
